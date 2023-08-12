@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_case</title>
+  <link rel="stylesheet" href="assets/noramilze.css">
+  <style>
+
+    /*div {*/
+    /*  width: 50vw;*/
+    /*  height: 50vh;*/
+    /*  background:red*/
+    /*}*/
+
+    /*section>div:nth-child(1) {*/
+    /*  background: pink;*/
+    /*}*/
+    body{
+        overflow: hidden;
+    }
+     section{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    section>div:nth-child(1){
+      width: 50vw;
+      height:50vh;
+      background:red;
+      position: absolute;
+      left: 0;
+      top: 0;
+
+    }
+    section>div:nth-child(2){
+      width: 50vw;
+      height:50vh;
+      background: green;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    section>div:nth-child(3){
+      width: 50vw;
+      height:50vh;
+      background: orange;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    section>div:nth-child(4){
+      width: 50vw;
+      height:50vh;
+      background: pink;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+     #bottom-center{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         left: calc(50% - 25px);
+         bottom:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+     #bottom-left{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         left: calc(0% - 25px);
+         bottom:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+     #bottom-right{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         right: calc(0% - 25px);
+         bottom:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+     #top-center{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         left: calc(50% - 25px);
+         top:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+     #top-right{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         right: calc(0% - 25px);
+         top:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+     #top-left{
+         position:absolute;
+         width: 50px;
+         height: 50px;
+         left: calc(0% - 25px);
+         top:calc(0% - 25px);
+         background-color: white;
+         border-radius: 100%;
+     }
+    #centerSuqare{
+        position:absolute;
+        width: 50px;
+        height: 50px;
+        left: calc(50% - 25px);
+        top:calc(50% - 25px);
+        background-color: white;
+        /*border-radius: 100%;*/
+    }
+    #centerSuqare>div{
+        position:absolute;
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        border-radius: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+   section>.main>div{
+       width: 14vw;
+       height: 14vw;
+       background: white;
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       margin: auto;
+   }
+    section>.main>div>div{
+        width: 7vw;
+        height: 7vw;
+        background: red;
+        position: absolute;
+        border-radius: 100%;
+
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+     #bottom-
+    /*section>div:first-child>div:nth-child(1)>div:first-child{*//*    */ /*}*/
+  </style>
+</head>
+<body>
+<section>
+<!--    first main-->
+
+  <div class="main">
+      <div>
+       <div></div>
+      </div>
+  </div>
+<!--    second main-->
+  <div class="main">
+      <div>
+          <div></div>
+      </div>
+
+  </div>
+<!--    third class-->
+  <div class="main">
+    <div>
+        <div></div>
+    </div>
+  </div>
+
+<!--    forth class-->
+
+  <div class="main">
+    <div>
+        <div></div>
+    </div>
+
+  </div>
+
+    <divi class="corner" id="top-left"></divi>
+    <div id="top-center"></div>
+    <div id="top-right"></div>
+    <div id="bottom-left"></div>
+    <div id="bottom-center"></div>
+    <div id="bottom-right"></div>
+    <div id="centerSuqare"> <div ></div> </div>
+
+
+</section>
+<!--<divi id="top-left"></divi>-->
+<!--<div id="top-center"></div>-->
+<!--<div id="top-right"></div>-->
+<!--<div id="bottom-left"></div>-->
+<!--<div id="bottom-center"></div>-->
+<!--<div id="bottom-right"></div>-->
+</body>
+</html>
